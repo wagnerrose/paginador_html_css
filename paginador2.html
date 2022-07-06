@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paginador Html/CSS</title>
+    <style type="text/css" media="screen">
+      ul.paginador {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul.paginador li {
+        display: inline;
+      }
+
+      ul.paginador li a {
+        border: 1px solid #ddd;
+        float: left;
+        padding: 4px 8px;
+        text-decoration: none;
+      }
+
+      ul.paginador li a:hover {
+        background-color: #ddd
+      }
+
+      .box{
+         width: 200px;
+         border: 10px solid green;
+         border-radius: 9px;
+         padding: 20px;
+         margin: auto;
+      }  
+
+      h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> <center>Paginador HTML/CSS </center></h1>
+    <div class="box">
+      <ul class="paginador">
+        <li>
+        <a href="#"><<</a>
+      </li>
+      <li>
+        <a href="#">1</a>
+      </li>
+      <li>
+        <a href="#">2</a>
+      </li>
+      <li>
+        <a href="#">3</a>
+      </li>
+      <li>
+        <a href="#">4</a>
+      </li>
+      <li>
+        <a href="#">>></a>
+      </li>
+    </ul>
+    </div>
+  </body>
+</html>
